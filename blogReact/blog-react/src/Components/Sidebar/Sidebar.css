@@ -1,0 +1,42 @@
+.Sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:initial;
+    align-items:center;
+    align-self: flex-start;
+}
+
+.SidebarItems p {
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.SidebarTitle  {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #000;
+     border-bottom: 1px solid #000;
+     font-size: 14px;
+     color:#000;
+     font-weight: 600;
+     text-align: center;
+     line-height: 20px;
+  
+}
+
+
+.SidebarItems img {
+    margin: 0 auto;
+    height: 100%;
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}

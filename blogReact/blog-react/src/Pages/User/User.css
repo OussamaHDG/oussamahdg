@@ -1,0 +1,83 @@
+.user {
+    display: flex;
+}
+
+.userWrapper {
+    flex: 9;
+    padding: 20px;
+
+}
+
+.userTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.userUpdateTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+
+.userDeleteTitle {
+    font-size: 12px;
+    cursor: pointer;
+    color: red;
+}
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.userPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.userPP img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.userIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.userForm label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.userForm input {
+    margin-top: 10px;
+    height: 30px;
+    color: gray;
+    border-bottom: 1px solid darkslategrey ;
+}
+
+.userSubmit { 
+    width: 150px;
+    height: 30px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 20px;
+    background-color: teal;
+    cursor: pointer;
+}
